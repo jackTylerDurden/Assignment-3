@@ -1,0 +1,74 @@
+body{
+    width:960px;
+    margin: 0px 0px 0px 0px;
+    margin-left:20px;
+    font: 1em/2em Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em; */
+}
+
+h2{
+    color:#CC1C0D;
+    background-color: #DFE3E6;
+    border: 1px solid #929CA4;
+    border-radius: 5px;
+    padding-left:10px;
+    font-size: 1.2em;
+}
+
+a{
+    color:#CC1C0D;
+    text-decoration-style: underline;
+}
+img + ul{
+    padding: 0;
+}
+ul:first-of-type li{
+    list-style-type: none;        
+}
+#vprospect,#vconvert,#vretain{
+    font-weight: bold;
+}
+.managementTeam > img{
+    border:1px solid red;
+    border-radius: 40em;
+    float:left;
+    margin-right: 1.19em;    
+}
+.managementTeam > p {
+    margin-top:0;
+}
+/*img style only for index.html and solutions.html page*/
+img[src *='logo_v'][alt=""]{ 
+    float:left;
+    margin-top: 0.5em;
+    margin-right: 0.4em;
+}
+.pricing > div{
+    float:left;    
+    border: 1px solid black;
+    text-align: center;
+    margin: 2px;
+    border-radius: 5px;
+    height: 18em;
+    width: 14.62em;
+    padding-top:1.4em;
+}
+
+.pricing  h3{
+    border-top: 10px solid;
+}
+#vProspectPricing > h3{
+    border-color: #CC1C0D;    
+}
+#vConvertPricing > h3{
+    border-color: #37A4A4;    
+}
+#vRetainPricing > h3{
+    border-color: #685288;    
+}
+#enterprisePricing > h3{
+    border-color: #000000; 
+    margin-top: 1.8em;   
+}
