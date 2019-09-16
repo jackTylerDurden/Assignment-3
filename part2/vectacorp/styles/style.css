@@ -30,13 +30,13 @@ ul:first-of-type li{
 #vprospect,#vconvert,#vretain{
     font-weight: bold;
 }
-.managementTeam > img{
+section > img{
     border:1px solid red;
     border-radius: 40em;
     float:left;
     margin-right: 1.19em;    
 }
-.managementTeam > p {
+section > p {
     margin-top:0;
 }
 /*img style only for index.html and solutions.html page*/
